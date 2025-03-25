@@ -332,7 +332,7 @@ text-align: center;
     }  
     .main-img{
         margin: 10px;
-        min-height: 10em;
+        min-height: 5em;
         width: 20em;
     }
 }
@@ -343,7 +343,7 @@ text-align: center;
     }
     .main-img{
         margin: 10px;
-        min-height: 10em;
+        min-height: 5em;
         width: 20em;
     }
 }
