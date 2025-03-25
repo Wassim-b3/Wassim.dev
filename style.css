@@ -48,7 +48,7 @@ header{
                
  }
 body{
-    background: rgb(255, 255, 255);
+    background: rgb(255, 254, 254);
 }
 .logo{
     position: relative;
@@ -197,13 +197,83 @@ section{
 text-align: center;
 }
 .info h3{
-    color: rgb(47, 47, 47);
+    color: rgb(5, 5, 5);
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
 }
+.body{
+    background-color: black;
+}
+.skills{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    margin:60px auto ;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 15px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.7s ease;
+}
+.skills:hover{
+    transform: scale(1.1);
+}
+.stitle {
+    color: rgb(5, 5, 5);
+    margin: 5px;
+}
+.skills li{
+    margin: 20px;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,.1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(31, 122, 48)0%,rgb(53, 239, 66)100%);
+}
+.html{
+    width: 60%;
+    animation: html 3s;
+}
+.css{
+    width: 50%;
+    animation: 3s;
+}
+.c{
+    width: 40%;
+    animation: 3s;
+}
+.java{
+    width: 20%;
+    animation: 3s;
+}
+.arabic{
+    width: 90%;
+    animation: 3s;
+}
+.english{
+    width: 50%;
+   animation: 3s;
+}
+.french{
+    width: 30%;
+   animation: 3s;
+}
 .projects{
-    background-color: rgb(86, 86, 86);
+    background-color: rgb(141, 141, 141);
 }
 .projects .content{
     margin: 30px;
@@ -344,7 +414,11 @@ text-align: center;
     .main-img{
         margin: 10px;
         min-height: 5em;
-        width: 20em;
+        width: 25em;
+    }
+    .skills{
+        width: 300px;
+        margin:40px auto ;
     }
 }
 
